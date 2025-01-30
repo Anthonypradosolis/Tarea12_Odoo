@@ -12,4 +12,4 @@ create table EmpresasFCT(idEmpresa SERIAL PRIMARY KEY,
 ``       
 
 
-[Apartado1](Trabajo_12/apartado1.png)
+![Apartado1](Trabajo_12/apartado1.png)
