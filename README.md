@@ -27,3 +27,11 @@ insert into EmpresasFCT(nombre,quiereAlumnos,numAlumnos,fechaContacto) values
 ('SanMun',True,1,'2025/05/06')
 ```
 ![Apartado2](Trabajo_12/apartado2.png)
+
+
+## Apartado 3
+
+```
+select * from EmpresasFCT order by fechacontacto desc
+```
+
