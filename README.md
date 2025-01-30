@@ -10,3 +10,6 @@ create table EmpresasFCT(idEmpresa SERIAL PRIMARY KEY,
 						 numAlumnos Integer,
 						 fechaContacto date)
 ``       
+
+
+[Apartado1](Trabajo_12/apartado1.png)
