@@ -34,4 +34,4 @@ insert into EmpresasFCT(nombre,quiereAlumnos,numAlumnos,fechaContacto) values
 ```
 select * from EmpresasFCT order by fechacontacto desc
 ```
-
+![Apartado3](Trabajo_12/apartado3.png)
