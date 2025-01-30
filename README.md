@@ -26,4 +26,4 @@ insert into EmpresasFCT(nombre,quiereAlumnos,numAlumnos,fechaContacto) values
 ('Leyendap',True,2,'2025/05/03'),
 ('SanMun',True,1,'2025/05/06')
 ```
-
+![Apartado2](Trabajo_12/apartado2.png)
