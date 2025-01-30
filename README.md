@@ -43,6 +43,6 @@ select * from EmpresasFCT order by fechacontacto desc
 select name,city,commercial_company_name from res_partner where is_company=False and city='Tracy' order by commercial_company_name;
 
 ```
-
+![Apartado4](Trabajo_12/apartado4.png)
 
 
