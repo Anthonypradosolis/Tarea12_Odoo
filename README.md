@@ -45,4 +45,18 @@ select name,city,commercial_company_name from res_partner where is_company=False
 ```
 ![Apartado4](Trabajo_12/apartado4.png)
 
+## Apartado 5
 
+
+```
+select * from account_move;
+
+
+invoice_partner_display_name
+name
+invoice_date_due
+amount_untaxed
+
+
+move_type =in_refund
+```
