@@ -72,5 +72,6 @@ where move_type = 'out_invoice'
 and state = 'posted'
 group by invoice_partner_display_name
 having count(name) > 2;
-
 ```
+![Apartado6](Trabajo_12/apartado6.png)
+
