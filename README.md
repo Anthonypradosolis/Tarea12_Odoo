@@ -75,3 +75,17 @@ having count(name) > 2;
 ```
 ![Apartado6](Trabajo_12/apartado6.png)
 
+## Apartado 7
+
+```
+update res_partner
+set email = replace(email, '@bilbao.example.com', '@bilbao.bizkaia.eus')
+where email like '%@bilbao.example.com';
+```
+![Apartado7](Trabajo_12/apartado7_1.png)
+![Apartado7](Trabajo_12/apartado7_2.png)
+![Apartado7](Trabajo_12/apartado7_3.png)
+
+
+
+
