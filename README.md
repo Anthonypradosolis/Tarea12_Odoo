@@ -49,14 +49,17 @@ select name,city,commercial_company_name from res_partner where is_company=False
 
 
 ```
-select * from account_move;
-
-
-invoice_partner_display_name
-name
-invoice_date_due
-amount_untaxed
-
-
-move_type =in_refund
+select
+    invoice_partner_display_name,
+    name,
+    invoice_date_due,
+    amount_untaxed
+from account_move
+where move_type = 'in_refund'
+order by invoice_date desc
 ```
+![Apartado5](Trabajo_12/apartado5.png)
+
+## Apartado 6
+
+
