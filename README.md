@@ -62,4 +62,15 @@ order by invoice_date desc
 
 ## Apartado 6
 
+```
+select 
+    invoice_partner_display_name,
+    count (name),
+    sum(amount_untaxed)
+from account_move 
+where move_type = 'out_invoice'  
+and state = 'posted'
+group by invoice_partner_display_name
+having count(name) > 2;
 
+```
