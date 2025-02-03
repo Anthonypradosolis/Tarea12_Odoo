@@ -86,6 +86,15 @@ where email like '%@bilbao.example.com';
 ![Apartado7](Trabajo_12/apartado7_2.png)
 ![Apartado7](Trabajo_12/apartado7_3.png)
 
+## Apartado 8
 
-
+```
+DELETE FROM res_partner
+WHERE commercial_company_name = 'Ready Mat' 
+AND is_company = FALSE;
+```
+![Apartado8](Trabajo_12/apartado8_1.png)
+![Apartado8](Trabajo_12/apartado8_2.png)
+![Apartado8](Trabajo_12/apartado8_3.png)
+![Apartado8](Trabajo_12/apartado8_4.png)
 
